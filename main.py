@@ -1,16 +1,24 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(test):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {test}')  # Press Ctrl+F8 to toggle the breakpoint.
+def print_hi(name):
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.
-if __test__ == '__main__':
+if __name__ == '__main__':
     print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+text = """This is a multi-line string.
+Line 2
+Line 3
+and the text may have "quotes" too.
+"""
+print(text)
+print(2 ** 10)
+def area(r):
+    innter = 11
+    return pi * r * r+ innter
+pi = 3.14 + int("20")
+
+number = float(1)
+number2 = int(1.11)
+print(area(5))
+print("hey" or "hi")
